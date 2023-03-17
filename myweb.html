@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my burdwan</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/PT+Sans">
+    <link rel="stylesheet" href="./style.css">
+
+
+    
+</head>
+
+<body>
+    <div class="box">
+
+        <div class="navigation">
+            <div id="menu" onclick="onClickMenu()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+            <ul class="nav" id="nav">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">GALERRY</a></li>
+                <li><a href="#">CONTUCT US</a></li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h1><b>DREAM CITY BURDWAN</b></h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Velit maxime, animi, repudiandae dolores quia tempora qui cupiditate
+                    quibusdam natus rem a sint sit consequatur perspiciatis nulla odio
+                    reiciendis fugiat doloribus.</p>
+                <button type="input" class="button"><b>EXPLORE</b></button>
+            </div>
+
+            <div class="col2">
+
+                <div class=" card card1">
+                    <a href="card1.html" target="_blank">
+                        <h3><b>HOLY PLACES</b></h3>
+                    </a>
+
+                </div>
+                <div class="card card2">
+
+                    <a href="card2.html" target="_blank">
+                        <h3><b>HISTORIC PLACES</b></h3>
+                    </a>
+                </div>
+                <div class="card card3">
+                    <a href="card3.html" target="_blank">
+                        <h3><b>SCIENCE PLACES</b></h3>
+                    </a>
+                </div>
+                <div class="card card4">
+                    <a href="card4.html" target="_blank">
+                        <h3><b>PARK</b></h3>
+                    </a>
+                </div>
+
+                <div class="card card5">
+                    <a href="card5.html" target="_blank">
+                        <h3><b>MALLS</b></h3>
+                    </a>
+                </div>
+                <div class="card card6">
+                    <a href="card6.html" target="_blank">
+                        <h3><b>STADIUM</b></h3>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <script src="js/script.js"></script>
+            function onClickMenu(){
+            document.getElementById("menu").classList.toggle("icon");
+             document.getElementById("nav").classList.toggle("change");
+            }
+    </script> 
+
+</body>
+
+</html>
